@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{898FAFFD-D8ED-42BE-8F20-B989B92A1146}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{315C4CB1-9EF1-4151-AD08-76482FF7B14B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{C75B082F-8517-49CB-A0EC-7D10C1122416}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{33EFEB77-E436-4827-AB91-86DF70966B30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectHermes.Web", "ProjectHermes.Web\ProjectHermes.Web.csproj", "{10F7F901-0544-4DB6-9EFE-47B6329C63E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectHermes.Db", "ProjectHermes.Db\ProjectHermes.Db.csproj", "{B5BCC52D-B926-405B-8454-FEF65A418318}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectHermes.Common", "ProjectHermes.Common\ProjectHermes.Common.csproj", "{A932B652-7251-4434-B855-308465D6C389}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Development|Any CPU = Development|Any CPU
+		Production|Any CPU = Production|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Staging|Any CPU = Staging|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10F7F901-0544-4DB6-9EFE-47B6329C63E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10F7F901-0544-4DB6-9EFE-47B6329C63E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10F7F901-0544-4DB6-9EFE-47B6329C63E8}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{10F7F901-0544-4DB6-9EFE-47B6329C63E8}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{10F7F901-0544-4DB6-9EFE-47B6329C63E8}.Production|Any CPU.ActiveCfg = Release|Any CPU
+		{10F7F901-0544-4DB6-9EFE-47B6329C63E8}.Production|Any CPU.Build.0 = Release|Any CPU
+		{10F7F901-0544-4DB6-9EFE-47B6329C63E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10F7F901-0544-4DB6-9EFE-47B6329C63E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10F7F901-0544-4DB6-9EFE-47B6329C63E8}.Staging|Any CPU.ActiveCfg = Release|Any CPU
+		{10F7F901-0544-4DB6-9EFE-47B6329C63E8}.Staging|Any CPU.Build.0 = Release|Any CPU
+		{B5BCC52D-B926-405B-8454-FEF65A418318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5BCC52D-B926-405B-8454-FEF65A418318}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5BCC52D-B926-405B-8454-FEF65A418318}.Development|Any CPU.ActiveCfg = Development|Any CPU
+		{B5BCC52D-B926-405B-8454-FEF65A418318}.Development|Any CPU.Build.0 = Development|Any CPU
+		{B5BCC52D-B926-405B-8454-FEF65A418318}.Production|Any CPU.ActiveCfg = Production|Any CPU
+		{B5BCC52D-B926-405B-8454-FEF65A418318}.Production|Any CPU.Build.0 = Production|Any CPU
+		{B5BCC52D-B926-405B-8454-FEF65A418318}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5BCC52D-B926-405B-8454-FEF65A418318}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5BCC52D-B926-405B-8454-FEF65A418318}.Staging|Any CPU.ActiveCfg = Staging|Any CPU
+		{B5BCC52D-B926-405B-8454-FEF65A418318}.Staging|Any CPU.Build.0 = Staging|Any CPU
+		{A932B652-7251-4434-B855-308465D6C389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A932B652-7251-4434-B855-308465D6C389}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A932B652-7251-4434-B855-308465D6C389}.Development|Any CPU.ActiveCfg = Development|Any CPU
+		{A932B652-7251-4434-B855-308465D6C389}.Development|Any CPU.Build.0 = Development|Any CPU
+		{A932B652-7251-4434-B855-308465D6C389}.Production|Any CPU.ActiveCfg = Production|Any CPU
+		{A932B652-7251-4434-B855-308465D6C389}.Production|Any CPU.Build.0 = Production|Any CPU
+		{A932B652-7251-4434-B855-308465D6C389}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A932B652-7251-4434-B855-308465D6C389}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A932B652-7251-4434-B855-308465D6C389}.Staging|Any CPU.ActiveCfg = Staging|Any CPU
+		{A932B652-7251-4434-B855-308465D6C389}.Staging|Any CPU.Build.0 = Staging|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{10F7F901-0544-4DB6-9EFE-47B6329C63E8} = {898FAFFD-D8ED-42BE-8F20-B989B92A1146}
+		{B5BCC52D-B926-405B-8454-FEF65A418318} = {C75B082F-8517-49CB-A0EC-7D10C1122416}
+		{A932B652-7251-4434-B855-308465D6C389} = {33EFEB77-E436-4827-AB91-86DF70966B30}
+	EndGlobalSection
+EndGlobal
